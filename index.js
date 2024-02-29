@@ -80,7 +80,6 @@ const receiveQueue = async () => {
           `User ${order.user} sells: Code ${order.code} - Price: ${order.price} -  Quantity ${order.quantity}.`
         );
       }
-
       matchOrders();
     },
     {
